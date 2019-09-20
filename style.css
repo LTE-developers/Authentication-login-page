@@ -1,0 +1,324 @@
+/* Made use of two fonts from google */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+    line-height: 1.4;
+}
+
+
+
+/* Utilities */
+a{
+    text-decoration:none;
+}
+.intro-text{
+    font-family: 'Cookie';
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e89b00;
+}
+
+.btn{
+    color: #75a94b;
+    background: white;
+    border-radius: 20px;
+    padding: 3px 47px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 80ms ease-in;
+}
+ .btn:focus{
+    outline: none;
+}
+ .btn:active{
+    transform: scale(0.93);
+}
+input:focus{
+    outline: none;
+}
+
+/* check box Remember-password design and animation */
+label.checkbox{
+    font-size: 0.81rem;
+    align-self: flex-start;
+    color: #75a94b;
+    display:flex;
+    position: relative;
+    cursor: pointer;
+}
+label.checkbox input[type="checkbox"]{
+    display: none;
+}
+
+label.checkbox span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid  #75a94b;
+    transform: scale(0.7)
+
+}
+label.checkbox span:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #75a94b;
+    border-radius: 50%;
+    position: absolute;
+    top: 14.3%;
+    left: 14.3%;
+    transform: scale(0);
+    transition:transform 300ms ease-in-out 0s;
+}
+label.checkbox input[type="checkbox"]:checked ~
+ span:after{
+    transform: scale(1);
+}
+
+
+
+/* body background */
+body{
+    background: url(./img/ColoredBg.jpeg) no-repeat
+    center center/cover;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* container */
+#container{
+    background: url(./img/Overlay\ bg.jpeg) no-repeat
+    center center/cover;
+    display: flex; 
+    width: 760px;
+    max-width: 100%;
+    min-height: 550px;    
+}
+
+/* second container */
+
+.SignUp-container{
+    padding: 0 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.SignUp-container > p{
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 0 20px;
+    width: 100%;
+    color: #7c8c5b;
+    border-bottom: 2px #7c8c5b solid;
+}
+
+
+/* Sign up form */
+.form-signup-body{
+    margin-top: 1.7rem;
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* inputs for the sign up form */
+.form-signup-body > input{
+    padding: 0.4rem 0.5rem;
+    margin: 0.6rem 0;
+    background: white;
+    border: none;
+    flex: 1;
+    width: 100%;
+}
+
+.Name-Area{
+    display: flex;
+    justify-content: space-between;
+}
+
+  input[type="text"]{
+    padding: 0.4rem 0.5rem;
+    margin: 0.6rem 0;
+    background: white;
+    border: none;
+    width: 45%;
+}
+.form-signup-body label.checkbox{
+    margin: 10px 0;
+    color: black;
+    font-weight: bold;
+}
+.form-signup-body label.checkbox p{
+    color: #e89b00;
+   margin-left: 5px;
+}
+.form-signup-body label.checkbox span{
+    border: 3px white solid;
+}
+.form-signup-body label.checkbox span:after{
+    background: #e89b00;
+}
+.form-signup-body .signup{
+    padding: 5px 47px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.form-signup-body .signin-text{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-around;
+    color: white;
+    font-size: 0.5rem;
+    align-items: center;
+    width: 100%;
+
+}
+.line{
+    display: block;
+    width: 40px;
+    background: white;
+    height: 2px;
+}
+.form-signup-body .socials{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 18px;
+}
+
+.socials .Facebook,
+ .socials .Google{
+     display: flex;
+     justify-content:space-around;
+     align-items: center;
+     padding: 6px 30px;
+ }
+
+ .socials .Facebook i,
+ .socials .Google i{
+     margin-right: 10px;
+ }
+ .Facebook{
+     color: #6363f5;
+ }
+ .Google{
+     color: #da2a2a;
+ }
+
+.signInLink{
+    margin-top: 60px;
+    color: white;
+    font-size: 1rem;
+}
+.signInLink a{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+
+
+/* Sign Up form form contents */
+.form-container{
+    width: 50%;
+    padding:3rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.wrapper{
+     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Welcome{
+    margin-bottom: 30px;
+}
+
+.form-signin-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+
+/* form email and password inputs area */
+.form-signin-body .text-area{
+    font-family: 'Cookie';
+    color: #75a94b;
+    display: flex;  
+    align-items:center;
+    background: #cdd5c6;
+    width: 100%;
+    padding: 0.4rem 0.7rem;
+    margin: 1rem 0;
+}
+.form-signin-body .text-area.password{
+    margin-bottom: 0.5rem;
+    flex:2
+}
+.form-signin-body .text-area input{
+    color: #75a94b;
+    border: none;
+    background: #cdd5c6;
+    margin-left: 1.4rem;
+    font-family: 'Cookie';
+    font-size: 1.2rem;
+    overflow: hidden;
+    width: 160px;
+}
+
+.form-signin-body input:focus{
+    outline: none;
+}
+.form-signin-body a{
+   font-size: 0.78rem;
+   color: #cdd5c6;
+   margin-bottom: 0.5rem;
+   align-self: flex-start; 
+}
+
+
+
+
+
+/* sign-in button and animation */
+.form-signin-body button{
+    border:1px #75a94b solid;
+    border-radius: 20px;
+    padding: 3px 47px;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    transition: all 80ms ease-in;
+    margin-bottom: 50px;
+    box-shadow:0px 3.5px 6px 0px rgba(0,0,0, 0.3)
+}
+.form-signin-body button:focus{
+    outline: none;
+}
+.form-signin-body button:active{
+    transform: scale(0.93);
+}
