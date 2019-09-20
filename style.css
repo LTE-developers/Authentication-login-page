@@ -23,6 +23,9 @@ a{
     font-weight: bold;
     color: #e89b00;
 }
+.intro-text.design{
+    font-size: 2.7rem
+}
 
 .btn{
     color: #75a94b;
@@ -84,6 +87,14 @@ label.checkbox input[type="checkbox"]:checked ~
     transform: scale(1);
 }
 
+.wrapper{
+    background: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+}
 
 
 /* body background */
@@ -127,7 +138,17 @@ body{
     color: #7c8c5b;
     border-bottom: 2px #7c8c5b solid;
 }
-
+.SignUp-container .description{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.btn.signOut{
+    margin-top: 50px;
+    padding: 6px 47px; 
+    background: #da2a2a;
+    color: #fff;
+}
 
 /* Sign up form */
 .form-signup-body{
@@ -147,6 +168,7 @@ body{
     flex: 1;
     width: 100%;
 }
+
 
 .Name-Area{
     display: flex;
@@ -244,11 +266,29 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}.wrapper{
-     background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.wrapper > .intro-text{
+    display: block;
+    border-bottom:2px solid #e89b00;
+    padding: 0 20px;
+}
+.wrapper .intro-text i{
+    color: #da2a2a;
+    margin-left: 10px;
+    flex-direction: row;
+}
+.teamView{
+    text-align: center;
+    color: #7c8c5b;
+}
+.team{
+    margin-top: 10px;
+    color: #292e1f;
+    font-weight: bold;
+}
+
+.form-container .wrapper{
     width: 100%;
 }
 .Welcome{
