@@ -1,0 +1,273 @@
+
+.header{
+    text-align: center;
+    color:  rgb(232, 132, 0);
+    margin-top: 40px;
+    font-family: 'Trebuchet MS';
+}
+
+.image-bg{
+    position: absolute;
+    height: 650px;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 18px;
+    
+}
+
+.image-rocks{
+    height: 600px;
+    width: 1000px
+}
+
+.image-eml{
+    position: relative;
+    height: 20px;
+    width: 30px;
+    top: 62px;
+    left: 90px;
+}
+
+.image-pwd{
+    position: relative;
+    height: 20px;
+    width: 25px;
+    top: 130px;
+    left: 60px
+}
+
+
+.text{
+   position: absolute;
+   top: 10px;
+   font-family: 'Trebuchet MS';
+   color: rgb(232, 132, 0);
+   margin-left: 50px;
+ 
+}
+
+.left-side{
+    position: absolute;
+    top: 0px;
+    height: 598px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+  
+  
+}
+
+.right-side{
+    background-color: rgb(255, 255, 255);
+    height: 440px;
+    width: 400px;
+    margin-top: 75px;
+    margin-left: 350px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    border: 1px solid rgb(155, 153, 153);
+   
+}
+
+
+#login {
+    position: absolute;
+    color:   rgb(117, 169, 75);
+    top: 350px;
+    margin-left: 75px;
+    height: 35px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 25px 25px 25px 25px;
+    background-color: white;
+    border-color: rgb(117, 169, 75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    font-weight: bold
+    
+}
+
+#email-input{
+    height: 40px;
+    width: 280px;
+    position: absolute;
+    top: 140px;
+    margin-left: 60px;
+    background-color: rgb(205, 213, 198);
+    border: 0px
+}
+
+#radio{
+    height: 40px;
+    width: 20px;
+    position: absolute;
+    top: 280px;
+    left: 55px;
+    background-color: rgb(117, 169, 75);
+    
+}
+
+#password-input{
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    height: 40px;
+    width: 280px;
+    margin-left: 60px;
+    background-color: rgb(205, 213, 198);
+    border: 0px
+}
+
+::placeholder{
+    text-align: center;
+    color:  rgb(117, 169, 75);
+    font-size: 15px;
+    opacity: 50%;
+    margin-left: 20px
+
+}
+
+
+.password-info{
+    position: absolute;
+    color:  rgb(174, 180, 174);
+    top: 260px;
+    margin-left: 0px
+
+}
+
+.extra-details{
+    position: absolute;
+    color:  rgb(174, 180, 174);
+    top: 295px;
+    margin-left: 35px
+}
+
+#first{
+    position: absolute;
+    left: 50px;
+    top: 85px;
+    height: 30px;
+    width: 200px;
+}
+
+
+#last{
+    position: absolute;
+    left: 270px;
+    top: 85px;
+    height: 30px;
+    width: 200px;
+}
+
+#signin-pass{
+    height: 30px;
+    position: absolute;
+    width: 420px;
+    top: 150px;
+    left: 50px
+}
+
+#signin-pass1{
+    height: 30px;
+    position: absolute;
+    width: 420px;
+    top: 220px;
+    left: 50px
+}
+
+#signin-pass2{
+    height: 30px;
+    position: absolute;
+    width: 420px;
+    top: 290px;
+    left: 50px
+}
+
+
+#radio1{
+    height: 35px;
+    width: 40px;
+    position: absolute;
+    top: 340px;
+    left: 45px;
+    background-color: rgb(117, 169, 75);   
+}
+
+#signup{
+    height: 50px;
+    position: absolute;
+    width: 420px;
+    top: 390px;
+    left: 50px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border-color: rgb(117, 169, 75);
+    color:   rgb(117, 169, 75);
+}
+
+#signup2{
+    height: 35px;
+    position: absolute;
+    width: 150px;
+    top: 480px;
+    left: 50px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(47, 97, 190);
+    border-color: rgb(117, 169, 75);
+    color:   white
+}
+
+#signup3{
+    height: 35px;
+    position: absolute;
+    width: 150px;
+    top: 480px;
+    left: 320px;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(245, 60, 60);
+    border-color: rgb(117, 169, 75);
+    color:   white;
+}
+
+.radio1text{
+    position: absolute;
+    top: 329px;
+    left: 100px;
+    color: black
+}
+.radio2text{
+    position: absolute;
+    top: 351px;
+    left: 185px;
+    color: rgb(240, 59, 35);
+}
+.radio3text{
+    position: absolute;
+    top: 451px;
+    left: 185px;
+    color: #ffffff;
+    opacity: 80%;
+}
+.footer{
+    position: absolute;
+    top: 535px;
+    left: 160px;
+    color: #ffffff
+}
+.signupform{
+    margin-top: 400px
+}
+
+
+
