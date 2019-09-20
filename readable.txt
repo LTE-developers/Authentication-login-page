@@ -1,0 +1,10 @@
+
+a:5:{i:0;i:2;i:1;s:4:"tobi";i:2;s:5:"oluwa";i:3;s:60:"$2y$10$cvWXLVd4jL/4c0k/3BuYwOBObo1kSDHKikJRGnwmequaEz9ysCEEy";i:4;s:17:"ffftobi@gmail.com";}
+a:5:{i:0;i:3;i:1;s:4:"tobi";i:2;s:5:"oluwa";i:3;s:60:"$2y$10$UuCNRgbJ5KqbYKEu1XjzQOlzWIO2jJK3xf/XZMJkFXV/kiZkElpFS";i:4;s:17:"ffftobi@gmail.com";}
+a:5:{i:0;i:0;i:1;s:9:"firstname";i:2;s:8:"lastname";i:3;s:7:"assword";i:4;s:4:"mail";}
+a:5:{i:0;i:2;i:1;s:2:"aa";i:2;s:2:"aa";i:3;s:60:"$2y$10$ajbCNf4mPDs7R5CJNUvotuIsjevmt6ZqV6ZOL5Bk6fTgwsSF1egVe";i:4;s:13:"abc@gmail.com";}
+a:5:{i:0;i:3;i:1;s:4:"tobi";i:2;s:4:"tobi";i:3;s:60:"$2y$10$p.Qp.J8AcIBxK69nU1mugeXEYZKxr/EiTAQGvN6eCcA/SpoiAkpFO";i:4;s:22:"oyebamijiolu@gmail.com";}
+a:5:{i:0;i:4;i:1;s:4:"tobi";i:2;s:9:"oyebamiji";i:3;s:60:"$2y$10$.7BtQnpoEeelThvqCLJb/u..z0xiQKLnHxc8X5tYu6Zd7TeVnHxpy";i:4;s:14:"tobi@gmail.com";}
+a:5:{i:0;i:5;i:1;s:4:"tobi";i:2;s:9:"oyebamiji";i:3;s:60:"$2y$10$dLIqTE3/t1ksChK8cdJZBu1ecOGbVlugdNZe7CyhnpKXuh9Csy8Oy";i:4;s:16:"abddsc@gmail.com";}
+a:5:{i:0;i:6;i:1;s:4:"tobi";i:2;s:4:"tobi";i:3;s:60:"$2y$10$s93wurP83yZlYnXR2LNnSeVHZWWa1/nI48zfTJiD3vFifj2Dz1QFW";i:4;s:11:"g@gmail.com";}
+a:5:{i:0;i:7;i:1;s:7:"Gabriel";i:2;s:4:"omoh";i:3;s:60:"$2y$10$96YnAJlV/R.9vF92vIoudeik60oSfHETNEU/3d6gGKxf.sGQAp8mi";i:4;s:22:"gabrielifoga@yahoo.com";}
